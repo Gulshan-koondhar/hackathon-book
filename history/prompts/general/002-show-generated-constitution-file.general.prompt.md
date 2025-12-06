@@ -1,0 +1,49 @@
+---
+id: 002
+title: Show Generated Constitution File
+stage: general
+date: 2025-12-06
+surface: agent
+model: claude-sonnet-4-5-20250929
+feature: none
+branch: master
+user: user
+command: null
+labels: ["constitution", "explanation"]
+links:
+  spec: null
+  ticket: null
+  adr: null
+  pr: null
+files:
+- .specify/memory/constitution.md
+tests:
+
+---
+
+## Prompt
+
+```text
+Show me the generated constitution file and explain what it contains.
+```
+
+## Response snapshot
+
+```text
+[Content of the constitution file and its explanation]
+```
+
+## Outcome
+
+- ✅ Impact: User was shown the constitution file and received an explanation of its contents.
+- 🧪 Tests: No tests were applicable to this operation.
+- 📁 Files: .specify/memory/constitution.md was read.
+- 🔁 Next prompts: User may ask further questions or proceed with project development.
+- 🧠 Reflection: Successfully read the constitution file and provided a clear explanation of its sections and their purpose to the user.
+
+## Evaluation notes (flywheel)
+
+- Failure modes observed:
+- Graders run and results (PASS/FAIL):
+- Prompt variant (if applicable):
+- Next experiment (smallest change to try):

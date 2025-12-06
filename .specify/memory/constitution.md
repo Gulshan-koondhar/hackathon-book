@@ -1,55 +1,72 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: None (initial creation) -> 1.0.0
+List of modified principles:
+- [PRINCIPLE_1_NAME] -> Spec-Driven Development
+- [PRINCIPLE_2_NAME] -> Clarity and Accessibility
+- [PRINCIPLE_3_NAME] -> Consistency
+- [PRINCIPLE_4_NAME] -> Maintainability
+- [PRINCIPLE_5_NAME] -> Ethical and Accurate AI Use
+Added sections: Key Standards, Constraints and Success Criteria
+Removed sections: None
+Templates requiring updates:
+- .specify/templates/plan-template.md: ✅ updated (will reflect new constitution in "Constitution Check" section when planning)
+- .specify/templates/spec-template.md: ✅ updated (aligned with new principles)
+- .specify/templates/tasks-template.md: ✅ updated (aligned with new principles)
+- .specify/templates/commands/*.md: ⚠ pending (no files found, but noted for future if they exist)
+Follow-up TODOs: None
+-->
+# AI/Spec-Driven Book Creation using Docusaurus Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Spec-Driven Development
+All content produced through Spec-Kit Plus workflows.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Clarity and Accessibility
+For a broad technical audience.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Consistency
+In structure, tone, and terminology across the entire book.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Maintainability
+Book must be easy to update through versioned documentation.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Ethical and Accurate AI Use
+All AI-generated content must be ethical and accurate.
 
-### [PRINCIPLE_6_NAME]
+## Key Standards
 
+*   All chapters must be generated and refined using Spec-Kit Plus workflows (/sp.specify, /sp.plan, /sp.tasks, /sp.implement)
+*   All drafting, iteration, and code-related content must be created through Claude Code environment
+*   Writing style: clear, concise, and technically accurate (Flesch-Kincaid grade 9–12)
+*   Documentation structure must follow Docusaurus best practices (sidebars, versioning, markdown standards)
+*   All external facts must be verifiable through reputable sources
+*   Zero tolerance for plagiarism in AI-generated content
 
-[PRINCIPLE__DESCRIPTION]
+## Constraints and Success Criteria
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+**Constraints**:
+*   Book length: minimum 8–12 chapters
+*   Deliverable format: Docusaurus website deployed on GitHub Pages
+*   All content must be in Markdown (.md or .mdx)
+*   Project files must be stored in a public GitHub repository
+*   Must maintain a consistent folder structure for docs and assets
+*   All figures/images must be either user-created or AI-generated with allowed licensing
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+**Success criteria**:
+*   Fully functional and deployed Docusaurus website accessible via GitHub Pages
+*   All chapters generated via Spec-Kit Plus workflows and logged in the repo
+*   Clear, structured, error-free documentation with consistent formatting
+*   All content passes plagiarism checks
+*   Book content demonstrates coherent flow and meets project requirements
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+Constitution supersedes all other practices.
+Amendments require documentation, approval, and a migration plan.
+All PRs/reviews must verify compliance.
+Complexity must be justified.
+Use `.specify/memory/constitution.md` for runtime development guidance.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-06 | **Last Amended**: 2025-12-06
