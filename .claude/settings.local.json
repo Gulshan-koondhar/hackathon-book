@@ -15,7 +15,9 @@
       "Bash(fi)",
       "Bash(npm run build)",
       "Bash(npm run serve)",
-      "Bash(git add .)"
+      "Bash(git add .)",
+      "Bash(git commit -m \"feat: Complete initial Physical AI & Humanoid Robotics textbook implementation\n\n- Set up Docusaurus site with MIT license and README\n- Created GitHub Actions workflow for GitHub Pages deployment\n- Implemented complete textbook structure with 4 modules\n- Added capstone project, hardware guide, and appendices\n- Configured sidebar navigation and Algolia search\n- Created all module content files with placeholder content\n- Verified site builds and serves successfully\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\")",
+      "Bash(git push origin 001-physical-ai-robotics)"
     ],
     "deny": [],
     "ask": []

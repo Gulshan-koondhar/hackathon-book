@@ -60,7 +60,7 @@ description: "Task list for Physical AI & Humanoid Robotics: Complete AI-Native 
 - [X] T009 [US1] Create `docs/intro.mdx` with an introduction to the textbook.
 - [X] T010 [US1] Configure Docusaurus `docusaurus.config.js` for basic site metadata and navigation.
 - [X] T011 [US1] Verify Docusaurus site can be built and served locally.
-- [ ] T012 [US1] Push initial Docusaurus site to GitHub to trigger GitHub Pages deploy.
+- [X] T012 [US1] Push initial Docusaurus site to GitHub to trigger GitHub Pages deploy.
 - [ ] T013 [US1] Verify deployed GitHub Pages site is accessible.
 
 **Checkpoint**: At this point, User Story 1 should be fully functional and testable independently
