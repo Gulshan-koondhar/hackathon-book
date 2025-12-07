@@ -21,16 +21,15 @@ description: "Task list for Physical AI & Humanoid Robotics: Complete AI-Native 
 
 - **Single project**: `src/`, `tests/` at repository root
 - **Web app**: `backend/src/`, `frontend/src/`
-- **Mobile**: `api/src/`, `ios/src/` or `android/src/`
 - Paths shown below assume single project - adjust based on plan.md structure
 
 ## Phase 1: Setup (Shared Infrastructure)
 
 **Purpose**: Project initialization and basic structure
 
-- [ ] T001 Create public GitHub repo with MIT license, README, .gitignore
-- [ ] T002 Generate full Docusaurus 3 site with classic preset, TypeScript, dark mode, blog disabled, docs-only mode
-- [ ] T003 AI-generate GitHub Actions workflow for GitHub Pages deploy on main push
+- [X] T001 Create public GitHub repo with MIT license, README, .gitignore
+- [X] T002 Generate full Docusaurus 3 site with classic preset, TypeScript, dark mode, blog disabled, docs-only mode
+- [X] T003 AI-generate GitHub Actions workflow for GitHub Pages deploy on main push
 
 ---
 
@@ -40,8 +39,8 @@ description: "Task list for Physical AI & Humanoid Robotics: Complete AI-Native 
 
 ⚠️ **CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T004 Generate versioned sidebar.js with Intro → Module 1 → Module 2 → Module 3 → Module 4 → Capstone → Hardware → Appendix
-- [ ] T005 [P] Integrate Algolia DocSearch (free tier) + fallback to built-in search
+- [X] T004 Generate versioned sidebar.js with Intro → Module 1 → Module 2 → Module 3 → Module 4 → Capstone → Hardware → Appendix
+- [X] T005 [P] Integrate Algolia DocSearch (free tier) + fallback to built-in search
 - [ ] T006 [P] Add Starboard notebook support for runnable Python/ROS code in-browser
 - [ ] T007 [P] Deploy embedded RAG chatbot (FastRAG + Qdrant + Llama-3-8B-Instruct) trained on initial book content
 - [ ] T008 [P] Add @docusaurus/plugin-pdf-generation
@@ -58,9 +57,9 @@ description: "Task list for Physical AI & Humanoid Robotics: Complete AI-Native 
 
 ### Implementation for User Story 1
 
-- [ ] T009 [US1] Create `docs/intro.mdx` with an introduction to the textbook.
-- [ ] T010 [US1] Configure Docusaurus `docusaurus.config.js` for basic site metadata and navigation.
-- [ ] T011 [US1] Verify Docusaurus site can be built and served locally.
+- [X] T009 [US1] Create `docs/intro.mdx` with an introduction to the textbook.
+- [X] T010 [US1] Configure Docusaurus `docusaurus.config.js` for basic site metadata and navigation.
+- [X] T011 [US1] Verify Docusaurus site can be built and served locally.
 - [ ] T012 [US1] Push initial Docusaurus site to GitHub to trigger GitHub Pages deploy.
 - [ ] T013 [US1] Verify deployed GitHub Pages site is accessible.
 
@@ -76,7 +75,7 @@ description: "Task list for Physical AI & Humanoid Robotics: Complete AI-Native 
 
 ### Implementation for User Story 2
 
-- [ ] T014 [US2] Create `docs/modules/module1/_category_.json` for Module 1 sidebar.
+- [X] T014 [US2] Create `docs/modules/module1/_category_.json` for Module 1 sidebar.
 - [ ] T015 [US2] Create `docs/modules/module1/1.1-introduction-physical-ai-robotics.mdx` for Introduction to Physical AI & Humanoid Robotics Landscape.
 - [ ] T016 [US2] Create `docs/modules/module1/1.2-ros2-from-zero.mdx` covering ROS 2 installation, colcon, rclpy basics.
 - [ ] T017 [US2] Create `docs/modules/module1/1.3-urdf-xacro-mastery.mdx` for building a 22-DoF Humanoid Model.
@@ -97,7 +96,7 @@ description: "Task list for Physical AI & Humanoid Robotics: Complete AI-Native 
 
 ### Implementation for User Story 3
 
-- [ ] T022 [US3] Create `docs/modules/module2/_category_.json` for Module 2 sidebar.
+- [X] T022 [US3] Create `docs/modules/module2/_category_.json` for Module 2 sidebar.
 - [ ] T023 [US3] Create `docs/modules/module2/2.1-gazebo-setup-sensor-plugins.mdx` covering Gazebo Harmonic Setup + Sensor Plugins.
 - [ ] T024 [US3] Create `docs/modules/module2/2.2-simulating-humanoid.mdx` covering Simulating a Full Humanoid (Gazebo + RViz2 + Foxglove).
 - [ ] T025 [US3] Create `docs/modules/module2/2.3-unity-rendering-ros-connector.mdx` covering Unity High-Fidelity Rendering + ROS TCP Connector.
@@ -116,7 +115,7 @@ description: "Task list for Physical AI & Humanoid Robotics: Complete AI-Native 
 
 ### Implementation for User Story 4
 
-- [ ] T028 [US4] Create `docs/modules/module3/_category_.json` for Module 3 sidebar.
+- [X] T028 [US4] Create `docs/modules/module3/_category_.json` for Module 3 sidebar.
 - [ ] T029 [US4] Create `docs/modules/module3/3.1-isaac-sim-installation.mdx` covering Isaac Sim & Omniverse Installation (Ubuntu 22.04 + RTX).
 - [ ] T030 [US4] Create `docs/modules/module3/3.2-isaac-ros-gems.mdx` covering Isaac ROS GEMs – VSLAM, Stereo, AprilTag, ESS.
 - [ ] T031 [US4] Create `docs/modules/module3/3.3-nav2-moveit2.mdx` covering Nav2 for Bipedal Locomotion + MoveIt 2 for Manipulation.
@@ -136,7 +135,7 @@ description: "Task list for Physical AI & Humanoid Robotics: Complete AI-Native 
 
 ### Implementation for User Story 5
 
-- [ ] T035 [US5] Create `docs/modules/module4/_category_.json` for Module 4 sidebar.
+- [X] T035 [US5] Create `docs/modules/module4/_category_.json` for Module 4 sidebar.
 - [ ] T036 [US5] Create `docs/modules/module4/4.1-whisper-llm-ros-planner.mdx` covering Whisper + GPT-4o/Llama-3 → ROS 2 Task Planner.
 - [ ] T037 [US5] Create `docs/modules/module4/4.2-open-vocabulary-detection-grasping.mdx` covering Open-Vocabulary Detection & Grounded Grasping (Grounding DINO + SAM 2).
 - [ ] T038 [US5] Create `docs/modules/module4/4.3-end-to-end-voice-controlled-humanoid.mdx` covering End-to-End Voice-Controlled Humanoid (Full Pipeline).
@@ -187,9 +186,9 @@ description: "Task list for Physical AI & Humanoid Robotics: Complete AI-Native 
 
 **Purpose**: Final content for the capstone project and appendices.
 
-- [ ] T051 Create `docs/capstone.mdx` for Chapter 15: Capstone – “Bring Me the Red Cup” Full Project.
-- [ ] T052 Create `docs/appendix/troubleshooting.mdx` for Appendix A: Troubleshooting & Common Errors.
-- [ ] T053 Create `docs/appendix/code-repo.mdx` for Appendix B: Full URDF + Launch Files Repository.
+- [X] T051 Create `docs/capstone.mdx` for Chapter 15: Capstone – “Bring Me the Red Cup” Full Project.
+- [X] T052 Create `docs/appendix/troubleshooting.mdx` for Appendix A: Troubleshooting & Common Errors.
+- [X] T053 Create `docs/appendix/code-repo.mdx` for Appendix B: Full URDF + Launch Files Repository.
 
 ---
 

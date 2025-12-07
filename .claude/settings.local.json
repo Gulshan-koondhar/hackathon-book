@@ -1,7 +1,21 @@
 {
   "permissions": {
     "allow": [
-      "WebSearch"
+      "WebSearch",
+      "Bash(powershell.exe:*)",
+      "Bash(git rev-parse:*)",
+      "mcp__github__create_repository",
+      "mcp__github__create_or_update_file",
+      "Bash(npm install:*)",
+      "Bash(npx create-docusaurus@latest:*)",
+      "Bash(.specify/scripts/powershell/check-prerequisites.ps1 -Json -RequireTasks -IncludeTasks)",
+      "Bash(if [ -d \"E:\\project\\hackathon-book\\specs\\001-physical-ai-robotics/checklists\" ])",
+      "Bash(then ls \"E:\\project\\hackathon-book\\specs\\001-physical-ai-robotics/checklists\")",
+      "Bash(else echo \"No checklists directory found\")",
+      "Bash(fi)",
+      "Bash(npm run build)",
+      "Bash(npm run serve)",
+      "Bash(git add .)"
     ],
     "deny": [],
     "ask": []
