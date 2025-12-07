@@ -1,6 +1,8 @@
 # Physical AI & Humanoid Robotics: Complete AI-Native Interactive Textbook
 
-This repository contains the complete AI-native interactive textbook for Physical AI & Humanoid Robotics. The goal is to enable any motivated learner with an RTX workstation (or cloud equivalent) and a Jetson kit to go from zero to a fully functional voice-controlled humanoid robot (simulated + real deployment) in one quarter.
+This repository contains the source code for the complete AI-native interactive textbook for Physical AI & Humanoid Robotics. The actual textbook is deployed at: https://physical-ai-robotics-textbook-new.vercel.app
+
+The goal is to enable any motivated learner with an RTX workstation (or cloud equivalent) and a Jetson kit to go from zero to a fully functional voice-controlled humanoid robot (simulated + real deployment) in one quarter.
 
 ## Features
 
@@ -8,14 +10,19 @@ This repository contains the complete AI-native interactive textbook for Physica
 - 4 comprehensive modules covering ROS 2, Simulation, NVIDIA Isaac Platform, and VLA/Conversational Robotics
 - Embedded RAG chatbot for instant technical assistance
 - Interactive MDX content with runnable code examples
-- GitHub Pages deployment with full-text search and dark mode
+- Vercel deployment with full-text search and dark mode
 
 ## Structure
 
+- `physical-ai-robotics-book/` - Main Docusaurus project containing the textbook
 - `docs/` - Textbook content in MDX format
 - `src/` - Docusaurus custom components and theme overrides
 - `specs/` - Specification and planning documents
 - `scripts/` - Utility scripts for content generation and deployment
+
+## Deployment
+
+The textbook is deployed to Vercel at: https://physical-ai-robotics-textbook-new.vercel.app
 
 ## License
 
